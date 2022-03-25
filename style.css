@@ -1,0 +1,247 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo
+{
+    color: rgb(207, 211, 214);
+    letter-spacing: 1px;
+}
+.links{
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    letter-spacing: 2px;
+    list-style: none; 
+}
+.links a 
+{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+}
+ .bannar{
+     position: relative;
+    margin-top: 5%;
+    margin-left: 0px;
+    margin-right: 0%;
+    width:100%;
+    height: 50px;
+    background-color:rgba(114, 23, 122, 0.877);
+}
+    
+   .left_row, .Right_row{
+       height: 30vh;
+       width: 40%;
+   }
+.left_row{
+    margin-left: 0%;
+    margin-top: 2%;
+    height: 500px;
+    margin-right: 20%;
+    position:absolute;
+}
+.Right_row{
+    margin-top: 0%;
+   
+    height: 500px;
+    margin-left: 150%;    
+    padding: 1px; 
+    border-radius: 20%;
+}
+.Right_row .rounded{
+      
+    padding: 1px; 
+    border-radius: 5%;
+
+}
+
+.Right_row img{
+    height: 500px;
+    position:absolute;
+    margin-right: 10%;
+    border-radius: 2px;
+
+}
+section .imgBx::before
+{
+    content:'' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 150%;
+    background: linear-gradient(#efe7,#e91e62,#03a9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+section .imgBx
+{
+  position: relative;
+  width: 50%;
+  height:50% ;
+
+}
+.imgcontent {
+    border: 40px rgb(209, 209, 209);
+    height: 60%;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+section .imgBx img
+
+{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+section .contentlog 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;  
+    
+}
+section .contentlog .form_content
+{
+width: 70%;
+}
+.textarea
+{
+    border-radius: 10px;
+   border: 2px solid rgba(210, 21, 235, 0.467);
+    height: 300px;
+    width: 380px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.867);
+    font-weight: 500;
+    padding: 1em;
+    font-size: 16px;
+    color: #607d8b;
+}
+section .contentlog .form_content  h2
+{
+color:rgba(196, 30, 211, 0.877);
+letter-spacing: 2px;
+font-weight: 500;
+font-size: 1.5em;
+text-transform: uppercase;
+margin-bottom: 20px;
+border-bottom:  4px solid rgba(0, 0, 0, 0.467);
+}
+section .contentlog .form_content .inputtxt
+{
+   margin-bottom: 15px;
+}
+section .contentlog .form_content .inputtxt label
+{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+section .contentlog .form_content .inputtxt input[type="file"]
+{
+    background:rgba(196, 30, 211, 0.877);
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #607d8b;
+}
+section .contentlog .form_content .inputtxt input[type="submit"]
+{
+    background:rgba(196, 30, 211, 0.877);
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+section .contentlog .form_content .inputtxt input[type="submit"]:hover
+{
+    background: rgba(195, 40, 226, 0.467);
+}
+section .contentlog .form_content .inputtxt input
+{
+    width: 100%;
+   height: 35px;
+   padding: 10px 20px;
+   outline: none;
+   font-weight: 400;
+   border: 1px solid rgba(196, 30, 211, 0.877);
+   border-radius: 30px;
+   background: transparent;
+   }
+section .contentlog .form_content  .Remmber
+{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+  
+}
+section .contentlog .form_content .inputtxt p 
+{
+letter-spacing: 2px;
+color: #607d8b;
+}
+
+
+
+
+
+
+/*this for view page */
+rows_content .col .left_row inputtxt{
+    height: 200px;
+}
+/*
+label{
+
+
+   /* border: 1px; color: black;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 2px;
+    color: black;
+    width: 5rem;
+}
+
