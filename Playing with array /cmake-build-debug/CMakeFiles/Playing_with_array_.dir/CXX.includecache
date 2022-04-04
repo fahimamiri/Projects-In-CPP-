@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fahimamiri/Playing with array /main.cpp
+iostream
+-
+cstdlib
+-
+string
+-
+string
+/Users/fahimamiri/Playing with array /string
+ctime
+-
+fstream
+-
+
