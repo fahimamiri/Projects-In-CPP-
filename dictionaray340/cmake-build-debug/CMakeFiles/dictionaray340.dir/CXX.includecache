@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fahimamiri/Desktop/CSC340 Assignment 03 /dictionaray340/main.cpp
+iostream
+-
+string
+-
+map
+-
+vector
+-
+fstream
+-
+algorithm
+-
+
