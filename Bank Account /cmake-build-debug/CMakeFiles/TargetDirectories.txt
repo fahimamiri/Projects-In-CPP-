@@ -1,0 +1,3 @@
+/Users/fahimamiri/Vowel Test /cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/fahimamiri/Vowel Test /cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fahimamiri/Vowel Test /cmake-build-debug/CMakeFiles/Vowel_Test_.dir
