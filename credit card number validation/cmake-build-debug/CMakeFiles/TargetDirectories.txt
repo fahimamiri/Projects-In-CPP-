@@ -1,0 +1,3 @@
+/Users/fahimamiri/CLionProjects/credit card number validation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/fahimamiri/CLionProjects/credit card number validation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fahimamiri/CLionProjects/credit card number validation/cmake-build-debug/CMakeFiles/credit_card_number_validation.dir
